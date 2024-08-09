@@ -102,6 +102,7 @@
     "rtfd",
     "sharex",
     "startswith",
+    "subslide",
     "symplot",
     "timeit",
     "traceback",

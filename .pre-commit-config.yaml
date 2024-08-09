@@ -23,7 +23,6 @@ repos:
             cell.metadata.editable
             cell.metadata.id
             cell.metadata.pycharm
-            cell.metadata.slideshow
             cell.metadata.user_expressions
             metadata.celltoolbar
             metadata.colab.name
@@ -39,10 +38,11 @@ repos:
             metadata.vscode
 
   - repo: https://github.com/ComPWA/policy
-    rev: 0.3.18
+    rev: 885cf92
     hooks:
       - id: check-dev-files
         args:
+          - --jupyter-slideshow
           - --no-cspell-update
           - --no-github-actions
           - --no-gitpod

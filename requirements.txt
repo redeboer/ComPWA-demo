@@ -60,6 +60,7 @@ jupyterlab-code-formatter==3.0.1
 jupyterlab-git==0.50.1
 jupyterlab-lsp==5.1.0
 jupyterlab-pygments==0.3.0
+jupyterlab-rise==0.42.0
 jupyterlab-server==2.27.3
 jupyterlab-widgets==3.0.11
 lsprotocol==2023.0.1

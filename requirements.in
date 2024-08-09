@@ -5,6 +5,7 @@ jupyterlab >=3
 jupyterlab-code-formatter >=3.0.0
 jupyterlab-git
 jupyterlab-lsp
+jupyterlab-rise
 nbmake
 pre-commit
 pytest

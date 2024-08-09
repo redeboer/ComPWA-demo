@@ -38,11 +38,11 @@ repos:
             metadata.vscode
 
   - repo: https://github.com/ComPWA/policy
-    rev: 885cf92
+    rev: 4d760cb
     hooks:
       - id: check-dev-files
         args:
-          - --jupyter-slideshow
+          - --allowed-cell-metadata=slideshow
           - --no-cspell-update
           - --no-github-actions
           - --no-gitpod
